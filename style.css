@@ -44,7 +44,7 @@ li {
 }
 
 p {
-  color: #444444;
+  color: #214E34;
   line-height: 32px;
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
@@ -70,4 +70,39 @@ a {
 .page:hover {
   background: #214E34;
   color: AliceBlue;
+}
+.up {
+ 
+     margin: 20px;
+    color:AliceBlue;
+       width: 100px;
+	height: 100px;
+	background: #214E34;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    position:fixed;
+    top: 500px;
+    left: 50px;
+}
+
+.up:hover {
+  background: AliceBlue;
+  color: #214E34;
+}
+a.up{
+font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+  
+}
+h3 {
+  
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
 }
