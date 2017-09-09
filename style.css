@@ -19,6 +19,8 @@ h1 {
  color: rgb(3,150,100);
   color: rgba(3,101,100,0.75);
 }
+
+
 h2 {
   color: #E4BB97;
   font-family: 'Raleway', sans-serif;
@@ -59,4 +61,13 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 2px;
+}
+.page {
+  
+  margin: 20px;
+}
+
+.page:hover {
+  background: #C0D6DF;
+  color: #FFF;
 }
