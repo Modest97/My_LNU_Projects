@@ -7,6 +7,8 @@ body {
   background-image: url("http://dreamatico.com/data_images/sky/sky-5.jpg");
   height: 250px;
   background-position: center center;
+  display: block;
+  position:static;
 }
 h1 {
   font-family: 'Covered By Your Grace', sans-serif;
@@ -16,11 +18,9 @@ h1 {
   position: relative;
   text-align: center;
   top: 20%;
- color: rgb(3,150,100);
+  color: rgb(3,150,100);
   color: rgba(3,101,100,0.75);
 }
-
-
 h2 {
   color:  AliceBlue;
   font-family: 'Raleway', sans-serif;
@@ -28,21 +28,20 @@ h2 {
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
-background-color:#214E34;
+  background-color:#214E34;
 }
 ul {
   margin: 0 auto;
   padding: 0;
   width: 50%;
 }
-
 li {
-  border-bottom: 1px solid #E4BB97;
+  border-bottom: 1px solid #214E34;
   list-style: none;
   margin: 50px 0px;
-  padding-bottom: 40px;
+  padding-bottom: 50px;
+ 
 }
-
 p {
   color: #214E34;
   line-height: 32px;
@@ -51,8 +50,8 @@ p {
   font-weight: 100;
   text-align: center;
 }
-
-a {
+a,
+#gmail{
   color: #214E34;
   font-family: 'Raleway', sans-serif;
   font-size: 13px;
@@ -63,46 +62,51 @@ a {
   letter-spacing: 2px;
 }
 .page {
-  
-  margin: 20px;
+      margin: 20px;
 }
 
 .page:hover {
-  background: #214E34;
-  color: AliceBlue;
+            background: #214E34;
+            color: AliceBlue;
 }
 .up {
- 
-     margin: 20px;
+    margin: 20px;
     color:AliceBlue;
-       width: 100px;
-	height: 100px;
-	background: #214E34;
-	-moz-border-radius: 50px;
-	-webkit-border-radius: 50px;
-	border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    background: #214E34;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
     position:fixed;
     top: 500px;
     left: 50px;
 }
-
 .up:hover {
-  background: AliceBlue;
-  color: #214E34;
+          background: AliceBlue;
+          color: #214E34;
 }
 a.up{
-font-family: 'Raleway', sans-serif;
-  font-size: 17px;
-  font-weight: 100;
-  text-align: center;
-  text-transform: uppercase;
-  
+    font-family: 'Raleway', sans-serif;
+    font-size: 17px;
+    font-weight: 100;
+    text-align: center;
+    text-transform: uppercase; 
 }
 h3 {
-  
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  font-weight: 100;
-  text-align: center;
-  text-transform: uppercase;
+   font-family: 'Raleway', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   text-align: center;
+   text-transform: uppercase;
+}
+.contact {
+    margin: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.left{
+float: left;
+margin: 0 1em 1em 0;
 }
