@@ -110,3 +110,15 @@ h3 {
 float: left;
 margin: 0 1em 1em 0;
 }
+.photo{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+.photo:hover{
+  margin: 20px;
+    width: 600px;
+    height: 600px;
+    border-radius: 30px;
+}
