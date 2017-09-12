@@ -111,15 +111,27 @@ h3 {
 float: left;
 margin: 0 1em 1em 0;
 }
-.photo{
+.photo1{
     margin: 20px;
     width: 200px;
     height: 200px;
     border-radius: 30px;
 }
-.photo:hover{
+.photo1:hover{
+  margin: 20px;
+    width: 500px;
+    height: 500px;
+    border-radius: 30px;
+}
+.photo2{
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+.photo2:hover{
   margin: 20px;
     width: 600px;
-    height: 600px;
+    height: 500px;
     border-radius: 30px;
 }
