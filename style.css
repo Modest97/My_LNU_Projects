@@ -220,16 +220,8 @@ margin: 0 1em 1em 0;
   top: 0;
 }
 
-img {
-  margin-bottom: -4px;
-}
 
-.caption-container {
-  text-align: center;
-  background-color: black;
-  padding: 2px 16px;
-  color: white;
-}
+
 
 .demo {
   opacity: 0.6;
